@@ -1,0 +1,157 @@
+name: Wiggle2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.13.6
+  provider: ^3.1.0
+  flutter_spinkit: '^4.0.0'
+  simple_animations: ^2.2.1
+  shared_preferences: ^0.5.7+2
+  animated_splash: ^1.0.0
+  photo: ^0.4.8
+  random_string: ^2.0.1
+  font_awesome_flutter: ^8.8.1
+  image_picker: ^0.6.6+1
+  firebase_storage: ^3.1.5
+  image: ^2.1.12
+  time: "^1.3.0"
+  intl: ^0.16.1
+  date_format: ^1.0.8
+  rxdart: ^0.20.0
+  firebase_core: ^0.4.4+3
+  firebase_analytics: ^5.0.14
+  flutter_linkify: 1.0.3
+  timeago: ^2.0.26
+  firebase_messaging: ^6.0.16
+  flushbar: ^1.10.4
+  auto_size_text: ^2.1.0
+  http: ^0.12.1
+  flip_card: ^0.4.4
+  flame: ^0.22.0
+  flutter_local_notifications: ^1.4.4+1
+  flutter_speed_dial: ^1.2.5
+  line_awesome_flutter: ^1.0.1
+  flutter_screenutil: ^1.0.2
+  animated_theme_switcher: ^1.0.5
+  introduction_screen: ^1.0.8
+  uuid: ^2.1.0
+  path_provider: ^1.6.10
+  bubble_bottom_bar: ^1.2.0
+  image_cropper: ^1.2.3
+  focused_menu: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/send.png
+    - assets/images/search_white.png
+    - assets/images/profile1.png
+    # - assets/images/one.png
+    #- images/a_dot_ham.jpeg
+    - assets/images/bg.png
+    - assets/images/bg1.png
+    - assets/images/bg2.png
+    - assets/images/bird.png
+    - assets/images/go.png
+    - assets/images/start.png
+    - assets/images/retry.png
+    - assets/images/menus/
+    - assets/images/arenas/debug/
+    - assets/images/arenas/map1/
+    - assets/images/arenas/map2/
+    - assets/images/fighters/red_santaclaus/
+    - assets/images/fighters/green_santaclaus/
+    - assets/images/buttons/
+    - assets/images/ghost.png
+    - assets/images/ghosty.png
+    - assets/images/text.png
+    - assets/images/gamer.png
+    - assets/images/quit.png
+    - assets/images/community.png
+    - assets/images/cuteghost.png
+    - assets/images/converse.png
+    - assets/images/gaming.png
+    - assets/images/ghosty2.png
+    - assets/images/WTaB.gif
+    - assets/images/compatible.png
+    
+    
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Thin.otf
+          weight: 100
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 700
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
